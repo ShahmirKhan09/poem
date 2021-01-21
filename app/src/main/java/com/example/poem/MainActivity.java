@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void card1(View view) {
-        Toast.makeText(this, "poem1", Toast.LENGTH_SHORT).show();
+
         Intent intent=new Intent(MainActivity.this, playfirst.class);
         startActivity(intent);
     }
